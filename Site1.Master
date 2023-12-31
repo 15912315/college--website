@@ -1,0 +1,209 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Online_e_learning_website.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 117px;
+        }
+        .auto-style2 {
+            height: 55px;
+        }
+        .auto-style3 {
+            width: 25%;
+        }
+        .auto-style4 {
+            text-align: center;
+        }
+        .auto-style5 {
+            font-size: large;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+				<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+                <div id="wowslider-container1">
+                    <div class="ws_images">
+                        <ul>
+                            <li>
+                                <img src="data1/images/download_2.jpg" alt="download (2)" title="download (2)" id="wows1_0"/></li>
+                            <li>
+                                <img src="data1/images/download_1.jpg" alt="download (1)" title="download (1)" id="wows1_1"/></li>
+                            <li>
+                                <img src="data1/images/download.jpg" alt="download" title="download" id="wows1_2"/></li>
+                            <li>
+                                <img src="data1/images/eco.jpg" alt="eco" title="eco" id="wows1_3"/></li>
+                            <li>
+                                <img src="data1/images/images_1.jpg" alt="images (1)" title="images (1)" id="wows1_4"/></li>
+                            <li><a href="http://wowslider.net">
+                                <img src="data1/images/images.jpg" alt="carousel jquery" title="images" id="wows1_5"/></a></li>
+                            <li>
+                                <img src="data1/images/sing_lang2.png" alt="sing_lang2" title="sing_lang2" id="wows1_6"/></li>
+                        </ul>
+                    </div>
+                    <div class="ws_bullets">
+                        <div>
+                            <a href="#" title="download (2)"><span>
+                            <img src="data1/tooltips/download_2.jpg" alt="download (2)"/>1</span></a> <a href="#" title="download (1)"><span>
+                            <img src="data1/tooltips/download_1.jpg" alt="download (1)"/>2</span></a> <a href="#" title="download"><span>
+                            <img src="data1/tooltips/download.jpg" alt="download"/>3</span></a> <a href="#" title="eco"><span>
+                            <img src="data1/tooltips/eco.jpg" alt="eco"/>4</span></a> <a href="#" title="images (1)"><span>
+                            <img src="data1/tooltips/images_1.jpg" alt="images (1)"/>5</span></a> <a href="#" title="images"><span>
+                            <img src="data1/tooltips/images.jpg" alt="images"/>6</span></a> <a href="#" title="sing_lang2"><span>
+                            <img src="data1/tooltips/sing_lang2.png" alt="sing_lang2"/>7</span></a>
+                        </div>
+                    </div>
+                    <div class="ws_script" style="position:absolute;left:-99%">
+                    </div>
+                        
+                    
+                        <script type="text/javascript" src="engine1/wowslider.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
+
+                </div>
+            </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    <div class="auto-style4">
+        <asp:Menu ID="Menu1" runat="server" Font-Bold="True" Font-Size="30px" ForeColor="Maroon" Height="94px" Orientation="Horizontal" RenderingMode="Table" Width="1797px" BackColor="#66FF66">
+            <Items>
+                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/WebForm1.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="About us" Value="About us" NavigateUrl="~/WebForm2.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Registration" Value="Registration" NavigateUrl="~/register.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Login" Value="Login" NavigateUrl="~/loginForm5.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Feedback" Value="Feedback"></asp:MenuItem>
+                <asp:MenuItem Text="Contact us" Value="Contact us"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </div>
+                        </asp:ContentPlaceHolder>
+                        <br />
+                        <table class="auto-style1">
+                            <tr>
+                                <td class="auto-style3" rowspan="2" style="background-color: #FF9900; vertical-align: top;">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+    <div style="background-color: #6699FF; border: thin groove #800000" class="auto-style4">
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="X-Large" Text="News &amp; events"></asp:Label>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    <div style="background-color: #FF6699; border: thin groove #000000; height: 400px ;font-size:22px;text-align:center">
+        <marquee direction="up" height="400"  onmouseover="stop();" onmouseout="start();" > 
+            2023
+Qualified : 6647 (From CCP: 4637, DLP: 2010)
+37 in Top 100 | 64 in Top 200 | 158 in Top 500
+
+Year
+2022
+Qualified : 5571 (From CCP:3910, DLP: 1661)
+34 in Top 100 | 66 in Top 200 | 160 in Top 500
+
+Year
+2021
+AIR 1 | 27 in Top 50 | 49 in Top 100
+
+Year
+2020
+15 in Top 50 | 35 in Top 100 | 66 in Top 200
+
+Year
+2019
+8 in Top 20 | 20 in Top 50 | 38 in Top 100
+
+Year
+2018
+2 in Top 10 | 11 in Top 30 | 30 in Top 100
+
+Year
+2017
+Qualified : 6289 (From CCP:4383, DLP: 1906)
+3 in Top 10 | 10 in Top 25 | 54 in Top 200
+
+Year
+2016
+Qualified : 3883 (From CCP:2857, DLP: 1026)
+AIR 1 | 4 in Top 10 | 12 in Top 50 | 25 in Top 100
+
+Year
+2015
+Selections : 2373 (From CCP:1776, DLP: 597)
+7 in Top 50 | 14 in Top 100 | 30 in Top 200
+
+Year
+2014
+Selections : 1010 (From CCP:901, DLP: 109)
+AIR 1 | Top 3 Ranks in Top 10 | 30 Ranks in First 500
+
+Year
+2013
+Selections : 990 (From CCP:896, DLP: 94)
+37 Ranks in First 1000
+
+Year
+2012
+Selections : 1008 (From CCP: 963, DLP: 45)
+37 Ranks in First 1000
+
+Year
+2011
+Selections : 218 (From CCP: 204, DLP: 14)
+14 Ranks in First 1000
+
+Year
+2010
+Selections : 276 (From CCP: 234, DLP: 42)
+12 Ranks in First 1000
+
+Year
+2009
+Selections : 135 In Confirm Merit List, 42 In Preparatory Course, 996 In Extended Merit List
+AIR: 13
+
+
+        <br /></marquee>
+    </div>
+    <div style="background-color: #9900CC; height: 150px">
+    </div>
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                                <td class="auto-style2" style="background-color: #FF9900; vertical-align: top; width: 70%; height: 600px;">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #FF9900">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                                        <div class="auto-style5">
+                                            <a href="mailto:abhi@gmail.com">abhi@gmail.com</a>
+                                        </div>
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                        <br/>
+                    </div>
+                </div>
+              
+	
+        </div>
+    </form>
+</body>
+</html>
